@@ -1,16 +1,20 @@
-import React, { Component} from 'react'
-import ReactDOM from 'react-dom'
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import Header from "./includes/Header.js";
 
 export default class App extends Component {
-  constructor () {
-    super()
+  constructor() {
+    super();
     this.state = {
-      name: 'Mario'
-    }
+      name: "Mario"
+    };
   }
 
-  render () {
-    return(<div>this is the app page</div>)
-
+  render() {
+    return (
+      <div>
+        <Header />
+      </div>
+    );
   }
 }
