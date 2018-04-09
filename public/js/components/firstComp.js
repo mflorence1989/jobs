@@ -40,7 +40,13 @@ var Layout = function (_Component) {
 
   _createClass(Layout, [{
     key: 'render',
-    value: function render() {}
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        'this is the homepage'
+      );
+    }
   }]);
 
   return Layout;

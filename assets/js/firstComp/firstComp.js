@@ -10,7 +10,8 @@ class Layout extends Component {
   }
 
   render () {
-  
+    return(<div>this is the homepage</div>)
+
   }
 }
 
