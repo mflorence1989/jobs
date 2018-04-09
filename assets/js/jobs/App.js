@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
 
-class Layout extends Component {
+export default class App extends Component {
   constructor () {
     super()
     this.state = {
@@ -10,11 +10,7 @@ class Layout extends Component {
   }
 
   render () {
-    return(<div>this is the homepage</div>)
+    return(<div>this is the app page</div>)
 
   }
 }
-
-const app = document.getElementById('app')
-
-ReactDOM.render(<Layout />, app)
