@@ -1,0 +1,81 @@
+.home {
+
+  h1{
+    font-size: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    padding: 20px;
+
+  }
+  .links{
+    padding: 20px;
+    background: rgba(0,0,0,.5);
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px;
+
+    .categories{
+      .title{
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        color:white;
+        font-weight: 700;
+
+      }
+      .group-links{
+        display: grid;
+        grid-template-columns: background-repeat(2, 1fr);
+        .link{
+          font-weight: 300;
+          font-size: .9rem;
+          color: white;
+          margin-bottom: .5rem;
+          text-decoration: none;
+          &:hover{
+            color: red;
+          }
+
+        }
+      }
+    }
+  }
+  .trending{
+    max-width: 700px;
+    margin: 0 auto;
+    .search {
+      margin-top: 14px;
+      width: 100%;
+      font-size: 2rem;
+      border-radius: 5px;
+      border: 1px solid black;
+      padding: 5px;
+
+    }
+    .title{
+      font-size: .8rem;
+      text-align: center;
+      padding: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color:black;
+    }
+    .trending-tags{
+      text-align: center;
+      .tag{
+        padding: 5px 20px;
+        border-radius: 45px;
+        border: 1px solid white;
+        display: inline-block;
+        color:white;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        &:hover{
+          background: white;
+          color: black;
+        }
+
+      }
+    }
+  }
+}

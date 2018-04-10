@@ -14,6 +14,7 @@ export default class Home extends Component {
     return testArray.map((item, i) => {
       return (
         <div key={i} className="categories">
+
       <div className="title">Community</div>
       <div className="group-links">
       <a href="#" className="link">Community</a>
@@ -29,6 +30,7 @@ export default class Home extends Component {
       <a href="#" className="link">Pets</a>
       </div>
       </div>
+
       )
     })
   }
@@ -44,8 +46,9 @@ export default class Home extends Component {
   render () {
 
       return(
-        <div>
-        <h1>Connecting People <br/>Everywhere</h1>
+        <div className="home">
+        <div className="container">
+        <h1>C<i className="far fa-smile"></i>nnecting Pe<i className="far fa-smile"></i>ple  </h1>
         <section className={'links'}>
         {this.loopCategories()}
         </section>
@@ -58,7 +61,7 @@ export default class Home extends Component {
         {this.loopTags()}
         </div>
         </section>
-
+        </div>
         </div>
       )
 

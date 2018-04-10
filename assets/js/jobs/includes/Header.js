@@ -11,7 +11,10 @@ export default class Header extends Component {
 
   render () {
 
-      return(<header>
+      return(
+        <div className="container">
+        <header>
+
       <div className={'left-menu'}>
       <div className={'logo'}>Philly Jobs</div>
       <div className={'city'}> Philadelphia
@@ -26,7 +29,9 @@ export default class Header extends Component {
       <div className={'post-btn'}> post to classifields </div>
       </div>
 
-        </header>)
+        </header>
+          </div>
+      )
 
   }
 }
