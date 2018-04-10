@@ -48,7 +48,7 @@ export default class Home extends Component {
       return(
         <div className="home">
         <div className="container">
-        <h1>C<i className="far fa-smile"></i>nnecting Pe<i className="far fa-smile"></i>ple  </h1>
+        <h1>Connecting People <i className="far fa-smile"></i>  </h1>
         <section className={'links'}>
         {this.loopCategories()}
         </section>
