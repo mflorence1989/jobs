@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
 
-export default class Listings extends Component {
+export default class Item extends Component {
   constructor () {
     super()
     this.state = {
@@ -14,11 +14,9 @@ export default class Listings extends Component {
   render () {
     const {match, location, history} = this.props
       return(
-        <div className="listings">
+        <div className="item">
         <div className="container">
-        City: {match.params.city}
-        Category: {match.params.category}
-        Listings: {match.params.listings}
+      this item is {match.params.item}
         </div>
         </div>
       )
