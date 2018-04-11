@@ -75,8 +75,7 @@ var App = function (_Component) {
           null,
           _react2.default.createElement(_Header2.default, null),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: "/", component: _Home2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: "/:city",
-            component: _Home2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: "/:city", component: _Home2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: "/:city/:category",
             component: _Category2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: "/:city/:category/:listings",
@@ -429,9 +428,11 @@ var Home = function (_Component) {
           _react2.default.createElement(
             'h1',
             null,
-            'Connecting People ',
+            'C',
             _react2.default.createElement('i', { className: 'far fa-smile' }),
-            '  '
+            'nnecting Pe',
+            _react2.default.createElement('i', { className: 'far fa-smile' }),
+            'ple   '
           ),
           _react2.default.createElement(
             'section',
