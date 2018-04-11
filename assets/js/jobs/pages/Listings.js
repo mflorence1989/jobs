@@ -6,6 +6,28 @@ export default class Listings extends Component {
     super();
     this.state = {};
   }
+  loopItems = () => {
+    let testArray = [1,2,3,4,5,6,7]
+    return testArray.map((item, i) => {
+      return (
+        <div key={i} className="categories">
+        <div className="item">
+          <div className="image">
+            <div className="price">$7888</div>
+            image
+          </div>
+          <div className="details">
+          <i className="far fa-star"></i>
+            <h5>Porshe 911</h5>
+
+            <h6>Summerdale</h6>
+          </div>
+        </div>
+      </div>
+
+      )
+    })
+  }
 
   render() {
     const { match, location, history } = this.props;
@@ -16,12 +38,12 @@ export default class Listings extends Component {
             <div className="form-group price">
               <label> Price </label>
               <div className="min-max">
-              <select name="min-price" className="min-price">
-                <option value="0">0</option>
-              </select>
-              <select name="max-price" className="max-price">
-                <option value="1000">10000</option>
-              </select>
+                <select name="min-price" className="min-price">
+                  <option value="0">0</option>
+                </select>
+                <select name="max-price" className="max-price">
+                  <option value="1000">10000</option>
+                </select>
               </div>
             </div>
 
@@ -42,8 +64,10 @@ export default class Listings extends Component {
               <div className="reset-btn">Reset</div>
             </div>
           </section>
-
-          <section id="list-view">
+        </div>
+        <section id="list-view">
+          <div className="container">
+          <div className="white-box">
             <section id="change-view">
               <div className="form-group view-dropdown">
                 <select name="select-view" className="select-view">
@@ -59,23 +83,12 @@ export default class Listings extends Component {
               </div>
             </section>
 
-            <section id="all-items" >
-            <div className="item">
-              <div className="image">
-                <div className="price">
-                $7888
-                </div>
-                image
-              </div>
-              <div className="details">
-                <h5>Title</h5>
-                <h6>City</h6>
-
-              </div>
-            </div>
+            <section id="all-items">
+            {this.loopItems()}
             </section>
-          </section>
-        </div>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }
