@@ -16,11 +16,11 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouterDom = __webpack_require__(243);
+var _reactRouterDom = __webpack_require__(244);
 
 var _Header = __webpack_require__(118);
 
@@ -110,7 +110,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -204,7 +204,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -236,7 +236,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -304,9 +304,13 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _Gallery = __webpack_require__(124);
+
+var _Gallery2 = _interopRequireDefault(_Gallery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -393,56 +397,7 @@ var Details = function (_Component) {
               _react2.default.createElement(
                 "div",
                 { className: "media-column" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "gallery" },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "slider" },
-                    _react2.default.createElement(
-                      "div",
-                      { className: "main-image" },
-                      _react2.default.createElement(
-                        "div",
-                        { className: "arrows left-arrow" },
-                        _react2.default.createElement("i", { className: "fas fa-angle-left" })
-                      ),
-                      _react2.default.createElement(
-                        "div",
-                        { className: "arrows right-arrow" },
-                        _react2.default.createElement("i", { className: "fas fa-angle-right" })
-                      ),
-                      _react2.default.createElement("div", { className: "image-1", style: {
-                          "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
-                        } })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    "div",
-                    { className: "thumbnails" },
-                    _react2.default.createElement("div", { className: "thumb-img", style: {
-                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
-                      } }),
-                    _react2.default.createElement("div", { className: "thumb-img", style: {
-                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
-                      } }),
-                    _react2.default.createElement("div", { className: "thumb-img", style: {
-                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
-                      } }),
-                    _react2.default.createElement("div", { className: "thumb-img", style: {
-                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
-                      } }),
-                    _react2.default.createElement("div", { className: "thumb-img", style: {
-                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
-                      } }),
-                    _react2.default.createElement("div", { className: "thumb-img", style: {
-                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
-                      } }),
-                    _react2.default.createElement("div", { className: "thumb-img", style: {
-                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
-                      } })
-                  )
-                )
+                _react2.default.createElement(_Gallery2.default, null)
               ),
               _react2.default.createElement(
                 "div",
@@ -455,12 +410,12 @@ var Details = function (_Component) {
                 _react2.default.createElement(
                   "h3",
                   { className: "title" },
-                  "White Porshe"
+                  "Blue Grand Marquis"
                 ),
                 _react2.default.createElement(
                   "h4",
                   { className: "price" },
-                  "$135,944"
+                  "$5,944"
                 ),
                 _react2.default.createElement(
                   "div",
@@ -490,7 +445,7 @@ var Details = function (_Component) {
                     _react2.default.createElement(
                       "h5",
                       null,
-                      "6,000 "
+                      "60,000 "
                     )
                   ),
                   _react2.default.createElement(
@@ -609,7 +564,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -788,7 +743,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -1016,6 +971,130 @@ var Listings = function (_Component) {
 }(_react.Component);
 
 exports.default = Listings;
+
+/***/ }),
+
+/***/ 124:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(5);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(14);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Gallery = function (_Component) {
+  _inherits(Gallery, _Component);
+
+  function Gallery() {
+    _classCallCheck(this, Gallery);
+
+    var _this = _possibleConstructorReturn(this, (Gallery.__proto__ || Object.getPrototypeOf(Gallery)).call(this));
+
+    _this.allImgsLoop = function () {
+
+      return _this.state.allImages.map(function (item, i) {
+        console.log(_this.state.allImages);
+        return _react2.default.createElement("div", { key: i, className: "thumb-img", style: {
+            "backgroundImage": "url('" + item + "')"
+          } });
+      });
+    };
+
+    _this.nextBtn = function () {
+      _this.setState({
+        currentIndex: _this.state.currentIndex + 1
+      });
+    };
+
+    _this.prevBtn = function () {
+      _this.setState({
+        currentIndex: _this.state.currentIndex - 1
+      });
+    };
+
+    _this.state = {
+      allImages: '',
+      currentImage: '',
+      currentIndex: 0
+    };
+    return _this;
+  }
+
+  _createClass(Gallery, [{
+    key: "componentWillMount",
+    value: function componentWillMount() {
+      var allImages = ['https://images.craigslist.org/00K0K_5knyLoF28cg_600x450.jpg', 'https://images.craigslist.org/00303_cthnAapfhf6_600x450.jpg', 'https://images.craigslist.org/00202_3BdNviwuqUY_600x450.jpg', 'https://images.craigslist.org/00o0o_9nhLBPxlBRr_600x450.jpg', 'https://images.craigslist.org/00I0I_exNXQsQiGDR_600x450.jpg', 'https://images.craigslist.org/00A0A_2bmxJJ6sTiT_600x450.jpg'];
+      this.setState({
+        allImages: allImages,
+        currentImage: allImages[this.state.currentIndex]
+
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _props = this.props,
+          match = _props.match,
+          location = _props.location,
+          history = _props.history;
+
+      return _react2.default.createElement(
+        "div",
+        { className: "gallery" },
+        _react2.default.createElement(
+          "div",
+          { className: "slider" },
+          _react2.default.createElement(
+            "div",
+            { className: "main-image" },
+            _react2.default.createElement(
+              "div",
+              { className: "arrows left-arrow", onClick: this.prevBtn },
+              _react2.default.createElement("i", { className: "fas fa-angle-left" })
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "arrows right-arrow", onClick: this.nextBtn },
+              _react2.default.createElement("i", { className: "fas fa-angle-right" })
+            ),
+            _react2.default.createElement("div", { className: "image-1", style: {
+                "backgroundImage": "url('" + this.state.allImages[this.state.currentIndex] + "')"
+              } })
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "thumbnails" },
+          this.allImgsLoop()
+        )
+      );
+    }
+  }]);
+
+  return Gallery;
+}(_react.Component);
+
+exports.default = Gallery;
 
 /***/ })
 

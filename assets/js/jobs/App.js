@@ -7,6 +7,7 @@ import Listings from "./pages/Listings.js"
 import Details from "./pages/Details.js"
 import Category from "./pages/Category.js"
 
+
 export default class App extends Component {
   constructor() {
     super();
