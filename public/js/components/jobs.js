@@ -343,156 +343,179 @@ var Details = function (_Component) {
           "div",
           { className: "container" },
           _react2.default.createElement(
-            "section",
-            { className: "submenu" },
+            "div",
+            { className: "white-box" },
             _react2.default.createElement(
-              "div",
-              { className: "direction" },
+              "section",
+              { className: "sub-menu" },
               _react2.default.createElement(
                 "div",
-                { className: "prev" },
-                "Prev"
+                { className: "direction" },
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "prev" },
+                  "Prev"
+                ),
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "next" },
+                  "NEXT"
+                )
               ),
               _react2.default.createElement(
-                "div",
-                { className: "next" },
-                "NEXT"
+                "nav",
+                { className: "sub-links" },
+                _react2.default.createElement(
+                  "a",
+                  { href: "#" },
+                  "More ads by user"
+                ),
+                _react2.default.createElement(
+                  "a",
+                  { href: "#" },
+                  "Print"
+                ),
+                _react2.default.createElement(
+                  "a",
+                  { href: "#" },
+                  "Share"
+                ),
+                _react2.default.createElement(
+                  "a",
+                  { href: "#" },
+                  "contact seller"
+                )
               )
             ),
             _react2.default.createElement(
-              "nav",
-              { className: "sub-links" },
-              _react2.default.createElement(
-                "a",
-                { href: "#" },
-                "More ads by user"
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#" },
-                "Print"
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#" },
-                "Share"
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#" },
-                "contact seller"
-              )
-            )
-          ),
-          _react2.default.createElement(
-            "section",
-            null,
-            _react2.default.createElement(
-              "div",
-              { className: "media-column" },
+              "section",
+              { className: "content-area" },
               _react2.default.createElement(
                 "div",
-                { className: "gallery" },
+                { className: "media-column" },
                 _react2.default.createElement(
                   "div",
-                  { className: "slider" },
+                  { className: "gallery" },
                   _react2.default.createElement(
                     "div",
-                    { className: "main-image" },
+                    { className: "slider" },
                     _react2.default.createElement(
                       "div",
-                      { className: "left-arrow" },
-                      _react2.default.createElement("i", { className: "fas fa-angle-left" })
+                      { className: "main-image" },
+                      _react2.default.createElement(
+                        "div",
+                        { className: "arrows left-arrow" },
+                        _react2.default.createElement("i", { className: "fas fa-angle-left" })
+                      ),
+                      _react2.default.createElement(
+                        "div",
+                        { className: "arrows right-arrow" },
+                        _react2.default.createElement("i", { className: "fas fa-angle-right" })
+                      ),
+                      _react2.default.createElement("div", { className: "image-1", style: {
+                          "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
+                        } })
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "thumbnails" },
+                    _react2.default.createElement("div", { className: "thumb-img", style: {
+                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
+                      } }),
+                    _react2.default.createElement("div", { className: "thumb-img", style: {
+                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
+                      } }),
+                    _react2.default.createElement("div", { className: "thumb-img", style: {
+                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
+                      } }),
+                    _react2.default.createElement("div", { className: "thumb-img", style: {
+                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
+                      } }),
+                    _react2.default.createElement("div", { className: "thumb-img", style: {
+                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
+                      } }),
+                    _react2.default.createElement("div", { className: "thumb-img", style: {
+                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
+                      } }),
+                    _react2.default.createElement("div", { className: "thumb-img", style: {
+                        "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg/1200px-Porsche_Panamera_4_E-Hybrid_%28MSP17%29.jpg')"
+                      } })
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "details-column" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "date" },
+                  "4/19/1989"
+                ),
+                _react2.default.createElement(
+                  "h3",
+                  null,
+                  "porshe"
+                ),
+                _react2.default.createElement(
+                  "h4",
+                  { className: "price" },
+                  "1344"
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "more-details" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "info" },
+                    _react2.default.createElement(
+                      "label",
+                      null,
+                      "Vin"
                     ),
                     _react2.default.createElement(
-                      "div",
-                      { className: "right-arrow" },
-                      _react2.default.createElement("i", { className: "fas fa-angle-right" })
+                      "h5",
+                      null,
+                      "used "
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "info" },
+                    _react2.default.createElement(
+                      "label",
+                      null,
+                      "Mileage"
+                    ),
+                    _react2.default.createElement(
+                      "h5",
+                      null,
+                      "used "
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "info" },
+                    _react2.default.createElement(
+                      "label",
+                      null,
+                      "Vin"
+                    ),
+                    _react2.default.createElement(
+                      "h5",
+                      null,
+                      "used "
                     )
                   )
                 ),
                 _react2.default.createElement(
                   "div",
-                  { className: "thumbnails" },
+                  { className: "description" },
                   _react2.default.createElement(
-                    "div",
-                    { className: "thumb-img" },
-                    "image"
+                    "p",
+                    null,
+                    "this is where the description goes "
                   )
-                )
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "details-column" },
-              _react2.default.createElement(
-                "div",
-                { className: "date" },
-                "4/19/1989"
-              ),
-              _react2.default.createElement(
-                "h3",
-                null,
-                "porshe"
-              ),
-              _react2.default.createElement(
-                "h4",
-                { className: "price" },
-                "1344"
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "more-details" },
-                _react2.default.createElement(
-                  "div",
-                  { className: "info" },
-                  _react2.default.createElement(
-                    "label",
-                    null,
-                    "Vin"
-                  ),
-                  _react2.default.createElement(
-                    "h5",
-                    null,
-                    "used "
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "info" },
-                  _react2.default.createElement(
-                    "label",
-                    null,
-                    "Mileage"
-                  ),
-                  _react2.default.createElement(
-                    "h5",
-                    null,
-                    "used "
-                  )
-                ),
-                _react2.default.createElement(
-                  "div",
-                  { className: "info" },
-                  _react2.default.createElement(
-                    "label",
-                    null,
-                    "Vin"
-                  ),
-                  _react2.default.createElement(
-                    "h5",
-                    null,
-                    "used "
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                "div",
-                { className: "description" },
-                _react2.default.createElement(
-                  "p",
-                  null,
-                  "this is where the description goes "
                 )
               )
             )
