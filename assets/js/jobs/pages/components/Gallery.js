@@ -31,7 +31,7 @@ allImgsLoop = () =>{
   return this.state.allImages.map((item, i)=>{
     console.log(this.state.allImages);
     return(
-      <div key={i} className="thumb-img" style={{
+      <div key={i} onClick={this.clickedThumb.bind(null,i)} className="thumb-img" style={{
         "backgroundImage": `url('${item}')`
       }} >
       </div>
@@ -53,11 +53,15 @@ prevBtn = () => {
       this.setState({
         currentIndex: this.state.currentIndex - 1
       })
-
     }
-
+}
+clickedThumb = (index) =>{
+  this.setState({
+    currentIndex: index
+  })
 
 }
+
   render() {
     const { match, location, history } = this.props;
     return (

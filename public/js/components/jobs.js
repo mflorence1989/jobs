@@ -405,7 +405,7 @@ var Details = function (_Component) {
                 _react2.default.createElement(
                   "div",
                   { className: "date" },
-                  "Posted on:  4/19/1989"
+                  "Posted on: 4/19/1989"
                 ),
                 _react2.default.createElement(
                   "h3",
@@ -520,17 +520,20 @@ var Details = function (_Component) {
                   _react2.default.createElement(
                     "p",
                     null,
-                    "DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh. "
+                    "DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh.",
+                    " "
                   ),
                   _react2.default.createElement(
                     "p",
                     null,
-                    "DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh. "
+                    "DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh.",
+                    " "
                   ),
                   _react2.default.createElement(
                     "p",
                     null,
-                    "DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh. "
+                    "DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh.",
+                    " "
                   )
                 )
               )
@@ -1014,7 +1017,7 @@ var Gallery = function (_Component) {
 
       return _this.state.allImages.map(function (item, i) {
         console.log(_this.state.allImages);
-        return _react2.default.createElement("div", { key: i, className: "thumb-img", style: {
+        return _react2.default.createElement("div", { key: i, onClick: _this.clickedThumb.bind(null, i), className: "thumb-img", style: {
             "backgroundImage": "url('" + item + "')"
           } });
       });
@@ -1034,6 +1037,12 @@ var Gallery = function (_Component) {
           currentIndex: _this.state.currentIndex - 1
         });
       }
+    };
+
+    _this.clickedThumb = function (index) {
+      _this.setState({
+        currentIndex: index
+      });
     };
 
     _this.state = {
