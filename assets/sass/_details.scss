@@ -12,7 +12,7 @@
     a {
        text-decoration: none;
        color: #12005e;
-       padding: 20px;
+       padding: 15px;
    }
 
 
@@ -54,7 +54,7 @@
               font-size: 3rem;
               color: white;
               cursor: pointer;
-              
+
 
               background: rgba(0,0,0,.7);
               &.left-arrow{
@@ -87,6 +87,59 @@
             background-repeat: no-repeat;
 
           }
+        }
+      }
+    }
+    .details-column{
+      .date{
+        font-size: .9rem;
+        color:#424242;
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+      .title{
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+
+      }
+      .price{
+        font-size: 1.5rem;
+        color:#006600;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+      label{
+        font-weight: 700;
+        font-size: .7rem;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        display: block;
+
+      }
+      .more-details{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        padding-bottom: 25px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid grey;
+        .info{
+
+          h5{
+            font-size: .8rem;
+            font-weight: 400;
+            text-transform: capitalize;
+
+          }
+        }
+      }
+      .description{
+        p{
+          font-size: .8rem;
+          line-height: 1.5;
+          color:#424242;
+          margin-bottom: 2rem;
         }
       }
     }

@@ -76,26 +76,44 @@ export default class Details extends Component {
             </div>
             <div className="details-column" >
             <div className="date" >
-            4/19/1989
+          Posted on:  4/19/1989
             </div>
-            <h3>porshe</h3>
-            <h4 className="price">1344</h4>
+            <h3 className="title">White Porshe</h3>
+            <h4 className="price">$135,944</h4>
             <div className="more-details" >
             <div className="info" >
-            <label>Vin</label>
-            <h5>used </h5>
+            <label>Vin </label>
+            <h5>A23st236D </h5>
             </div>
             <div className="info" >
             <label>Mileage</label>
-            <h5>used </h5>
+            <h5>6,000 </h5>
             </div>
             <div className="info" >
-            <label>Vin</label>
-            <h5>used </h5>
+            <label>Transmission</label>
+            <h5>Manual </h5>
+            </div>
+            </div>
+            <div className="more-details" >
+            <div className="info" >
+            <label>Vin </label>
+            <h5>A23st236D </h5>
+            </div>
+            <div className="info" >
+            <label>Mileage</label>
+            <h5>6,000 </h5>
+            </div>
+            <div className="info" >
+            <label>Transmission</label>
+            <h5>Manual </h5>
             </div>
             </div>
             <div className="description" >
-            <p>this is where the description goes </p>
+            <label>Description</label>
+            <p>DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh. </p>
+            <p>DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh. </p>
+            <p>DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh. </p>
+
             </div>
             </div>
           </section>

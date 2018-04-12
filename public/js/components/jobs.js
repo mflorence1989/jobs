@@ -450,17 +450,17 @@ var Details = function (_Component) {
                 _react2.default.createElement(
                   "div",
                   { className: "date" },
-                  "4/19/1989"
+                  "Posted on:  4/19/1989"
                 ),
                 _react2.default.createElement(
                   "h3",
-                  null,
-                  "porshe"
+                  { className: "title" },
+                  "White Porshe"
                 ),
                 _react2.default.createElement(
                   "h4",
                   { className: "price" },
-                  "1344"
+                  "$135,944"
                 ),
                 _react2.default.createElement(
                   "div",
@@ -471,12 +471,12 @@ var Details = function (_Component) {
                     _react2.default.createElement(
                       "label",
                       null,
-                      "Vin"
+                      "Vin "
                     ),
                     _react2.default.createElement(
                       "h5",
                       null,
-                      "used "
+                      "A23st236D "
                     )
                   ),
                   _react2.default.createElement(
@@ -490,7 +490,7 @@ var Details = function (_Component) {
                     _react2.default.createElement(
                       "h5",
                       null,
-                      "used "
+                      "6,000 "
                     )
                   ),
                   _react2.default.createElement(
@@ -499,12 +499,58 @@ var Details = function (_Component) {
                     _react2.default.createElement(
                       "label",
                       null,
-                      "Vin"
+                      "Transmission"
                     ),
                     _react2.default.createElement(
                       "h5",
                       null,
-                      "used "
+                      "Manual "
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "more-details" },
+                  _react2.default.createElement(
+                    "div",
+                    { className: "info" },
+                    _react2.default.createElement(
+                      "label",
+                      null,
+                      "Vin "
+                    ),
+                    _react2.default.createElement(
+                      "h5",
+                      null,
+                      "A23st236D "
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "info" },
+                    _react2.default.createElement(
+                      "label",
+                      null,
+                      "Mileage"
+                    ),
+                    _react2.default.createElement(
+                      "h5",
+                      null,
+                      "6,000 "
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "info" },
+                    _react2.default.createElement(
+                      "label",
+                      null,
+                      "Transmission"
+                    ),
+                    _react2.default.createElement(
+                      "h5",
+                      null,
+                      "Manual "
                     )
                   )
                 ),
@@ -512,9 +558,24 @@ var Details = function (_Component) {
                   "div",
                   { className: "description" },
                   _react2.default.createElement(
+                    "label",
+                    null,
+                    "Description"
+                  ),
+                  _react2.default.createElement(
                     "p",
                     null,
-                    "this is where the description goes "
+                    "DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh. "
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh. "
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "DIY kale chips try-hard, pickled 8-bit fixie echo park butcher. You probably haven't heard of them PBR&B occupy cardigan. Aesthetic brooklyn plaid marfa poke, shoreditch activated charcoal typewriter whatever franzen slow-carb organic. 8-bit ramps selfies keffiyeh meditation mlkshk, scenester woke YOLO. IPhone wolf master cleanse +1 coloring book, enamel pin waistcoat. Echo park seitan bushwick bespoke hammock pug subway tile messenger bag chillwave unicorn meh. "
                   )
                 )
               )
