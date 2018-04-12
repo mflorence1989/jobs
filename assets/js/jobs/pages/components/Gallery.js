@@ -40,15 +40,22 @@ allImgsLoop = () =>{
 }
 
 nextBtn = () => {
-  this.setState({
-    currentIndex: this.state.currentIndex + 1
-  })
+  if(this.state.currentIndex != (this.state.allImages.length - 1)){
+    this.setState({
+      currentIndex: this.state.currentIndex + 1
+    })
+
+  }
 
 }
 prevBtn = () => {
-  this.setState({
-    currentIndex: this.state.currentIndex - 1
-  })
+    if(this.state.currentIndex != 0  ){
+      this.setState({
+        currentIndex: this.state.currentIndex - 1
+      })
+
+    }
+
 
 }
   render() {
