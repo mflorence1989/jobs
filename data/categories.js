@@ -3,18 +3,18 @@ module.exports = [
     title: "community",
     listings: [
       {
-        name: 'activities',
-        slug: 'activities',
+        name:'activities',
+        slug:'activities',
 
       },
       {
-        name: 'artists',
-        slug: 'artists',
+        name:'artists',
+        slug:'artists',
 
       },
       {
-        name: 'childcare',
-        slug: 'childcare',
+        name:'childcare',
+        slug:'childcare',
 
       },
       {
