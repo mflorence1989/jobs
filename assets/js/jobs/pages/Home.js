@@ -21,7 +21,7 @@ componentWillMount(){
     }
 
     const self = this;
-      axios.get(`api/${match.params.city}/categories`)
+      axios.get(`api/${match.params.city}`)
     .then(function (response) {
       self.setState({
         categoriesData: response.data
