@@ -12,19 +12,28 @@ export default class Home extends Component {
     }
   }
 componentWillMount(){
-  const self = this;
-    axios.get('api/categories')
-  .then(function (response) {
-    self.setState({
-      categoriesData: response.data
-    }, () => {
-      console.log(self.state);
-    })
 
-  })
-  .catch(function (error) {
-    console.log(error);
-  });
+  }
+  componentDidMount(){
+    const {match, history} = this.props
+    if(match.params.city == undefined){
+      history.push('/phl')
+    }
+
+    const self = this;
+      axios.get(`api/${match.params.city}/categories`)
+    .then(function (response) {
+      self.setState({
+        categoriesData: response.data
+      }, () => {
+        console.log(self.state);
+      })
+
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+
   }
 
 
