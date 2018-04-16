@@ -54,7 +54,7 @@ componentWillMount(){
         return (
         <div key={i} className="categories">
 
-        <div className="title">{category.title}</div>
+        <a href={`/{match.params.city}/${category.title}`} className="title">{category.title}</a>
         <div className="group-links">
         {loopListings()}
 
